@@ -30,9 +30,9 @@ public class HomeController {
     public String services() {
         return "services";
     }
-    @GetMapping("/testimonials")
+    @GetMapping("/research")
     public String testimonials() {
-        return "testimonials";
+        return "research";
     }
 }
 

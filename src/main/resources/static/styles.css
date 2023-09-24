@@ -1,30 +1,47 @@
-/* Reset some default styles */
-body, h1, h2, p {
-    margin: 0;
-    padding: 0;
-}
-
-/* Apply some basic styles */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f8f8f8;
+	background-image: url('/images/atmosphere.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: left top;
 }
 
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 1rem 0;
+.circle-container {
+	display: flex;
+	align-items: center;
+	margin-top: 60px;
+	margin-left: 60px;
+	color: #D53333;
+	font-size: 31px;
 }
 
-nav ul {
-    list-style-type: none;
-    display: flex;
-    justify-content: center;
+.cricle-row {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
 }
 
-nav li {
-    margin: 0 1rem;
+.circle {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	color: white;
+	text-align: center;
+	margin: 30px 10px;
+	background-image: url('/images/MAVEN.png');
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+	text-decoration: none;
+	color: inherit;
+	z-index: 1;
+	transition: transform 0.3s;
 }
 
-/* Add more CSS rules to style other sections and elements */
+.circle:hover {
+	transform: scale(1.1);
+}
 
