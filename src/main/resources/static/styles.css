@@ -2,6 +2,8 @@ body {
 	margin: 0;
 }
 
+/* HOME */
+
 #home-body {
 	background-color: #000000;
 	background-image: url('/images/Black Hole in a Globular Cluster (Illustration).png');
@@ -52,6 +54,8 @@ body {
         transform: rotate(360deg);
     }
 }
+
+/* CONTACT */
 
 #contact-body {
     background-color: #000000;
@@ -113,6 +117,7 @@ body {
 #contact-nav li {
 	margin-bottom: 10px;
 }
+
 #contact-footer {
     margin-top: 100px;
     font-size: 14px;
@@ -149,4 +154,31 @@ body {
     50% {
         border-color: transparent;
     }
+}
+
+/* ABOUT */
+
+#about-body {
+    background-color: #e0bbe4;
+    background-image: url('/images/pawel-czerwinski-wT4AZyw4pPY-unsplash.jpg');
+    background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center center;
+}
+
+#about-container {
+    font-family: 'Martian Mono', monospace;
+	height: 80vh;
+    padding: 80px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#go-to-contact:hover {
+    background-color: #333;
+    color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
